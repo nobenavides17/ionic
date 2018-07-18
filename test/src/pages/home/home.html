@@ -1,0 +1,15 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Participantes ESCL</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <button ion-item *ngFor = "let usuario of usuarios">
+      <h2>  {{usuario.id}} - {{usuario.name}}</h2>
+      <p> Charla: {{usuario.charla}}</p>
+    </button>
+  </ion-list>
+</ion-content>
+<ion-list>
