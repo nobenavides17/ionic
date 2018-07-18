@@ -63,7 +63,7 @@ var TabsPage = /** @class */ (function () {
         this.tab3Root = __WEBPACK_IMPORTED_MODULE_2__contact_contact__["a" /* ContactPage */];
     }
     TabsPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/home/benavides/ionic/app/demo/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="Inicio" tabIcon="ionitron"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="Participantes" tabIcon="contacts"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Contact" tabIcon="contacts"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"/home/benavides/ionic/app/demo/src/pages/tabs/tabs.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/home/benavides/GIT/ionic/src/pages/tabs/tabs.html"*/'<ion-tabs>\n  <ion-tab [root]="tab1Root" tabTitle="Inicio" tabIcon="ionitron"></ion-tab>\n  <ion-tab [root]="tab2Root" tabTitle="Participantes" tabIcon="contacts"></ion-tab>\n  <ion-tab [root]="tab3Root" tabTitle="Contact" tabIcon="contacts"></ion-tab>\n</ion-tabs>\n'/*ion-inline-end:"/home/benavides/GIT/ionic/src/pages/tabs/tabs.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], TabsPage);
@@ -98,7 +98,7 @@ var AboutPage = /** @class */ (function () {
     }
     AboutPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-about',template:/*ion-inline-start:"/home/benavides/ionic/app/demo/src/pages/about/about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Bienvenidos ECSL 2018\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-card>\n    <img src="../../assets/imgs/ECSL.jpg"/>\n    <ion-card-content>\n      <ion-card-title>\n        Encuentro Centroamericano de Software Libre 2018\n        </ion-card-title>\n      <p>\n      El Encuentro Centroamericano de Software Libre (ECSL) es un evento anual organizado desde el año 2009 por y para la comunidad de Software Libre Centroamérica (SLCA). El ECSL es una reunión de activistas e integrantes de comunidades y grupos de usuarios/as que sirve como punto de encuentro y espacio de articulación, educación, coordinación e intercambio de ideas para fortalecer acuerdos y formas de trabajo conjuntas que faciliten la promoción del uso y desarrollo del Software Libre en la región.\n      </p>\n    </ion-card-content>\n  </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"/home/benavides/ionic/app/demo/src/pages/about/about.html"*/
+            selector: 'page-about',template:/*ion-inline-start:"/home/benavides/GIT/ionic/src/pages/about/about.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Bienvenidos ECSL 2018\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-card>\n    <img src="../../assets/imgs/ECSL.jpg"/>\n    <ion-card-content>\n      <ion-card-title>\n        Encuentro Centroamericano de Software Libre 2018\n        </ion-card-title>\n      <p>\n      El Encuentro Centroamericano de Software Libre (ECSL) es un evento anual organizado desde el año 2009 por y para la comunidad de Software Libre Centroamérica (SLCA). El ECSL es una reunión de activistas e integrantes de comunidades y grupos de usuarios/as que sirve como punto de encuentro y espacio de articulación, educación, coordinación e intercambio de ideas para fortalecer acuerdos y formas de trabajo conjuntas que faciliten la promoción del uso y desarrollo del Software Libre en la región.\n      </p>\n    </ion-card-content>\n  </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"/home/benavides/GIT/ionic/src/pages/about/about.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], AboutPage);
@@ -133,7 +133,7 @@ var ContactPage = /** @class */ (function () {
     }
     ContactPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-contact',template:/*ion-inline-start:"/home/benavides/ionic/app/demo/src/pages/contact/contact.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Contact\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-list-header>Follow us</ion-list-header>\n    <ion-item>\n      <ion-icon name="ionic" item-start></ion-icon>\n    Muchas Gracias por asistir al Taller :D\n    Espero les haya servido, nosotros GoTouch\n    Bertha Brenes\n    estudiante de ingenieria en Computadores, Tecnologico de Costa Centroamérica\n    \n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/home/benavides/ionic/app/demo/src/pages/contact/contact.html"*/
+            selector: 'page-contact',template:/*ion-inline-start:"/home/benavides/GIT/ionic/src/pages/contact/contact.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      Contact\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <ion-list>\n    <ion-list-header>Follow us</ion-list-header>\n    <ion-item>\n      <ion-icon name="ionic" item-start></ion-icon>\n    Muchas Gracias por asistir al Taller :D\n    Espero les haya servido, nosotros GoTouch\n    Bertha Brenes\n    estudiante de ingenieria en Computadores, Tecnologico de Costa Centroamérica\n    \n    </ion-item>\n  </ion-list>\n</ion-content>\n'/*ion-inline-end:"/home/benavides/GIT/ionic/src/pages/contact/contact.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]])
     ], ContactPage);
@@ -176,7 +176,7 @@ var HomePage = /** @class */ (function () {
     };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"/home/benavides/ionic/app/demo/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Participantes ESCL</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-list>\n    <button ion-item *ngFor = "let usuario of usuarios">\n      <h2>  {{usuario.id}} - {{usuario.name}}</h2>\n      <p> Charla: {{usuario.charla}}</p>\n    </button>\n  </ion-list>\n</ion-content>\n<ion-list>\n'/*ion-inline-end:"/home/benavides/ionic/app/demo/src/pages/home/home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"/home/benavides/GIT/ionic/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>Participantes ESCL</ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n  <ion-list>\n    <button ion-item *ngFor = "let usuario of usuarios">\n      <h2>  {{usuario.id}} - {{usuario.name}}</h2>\n      <p> Charla: {{usuario.charla}}</p>\n    </button>\n  </ion-list>\n</ion-content>\n<ion-list>\n'/*ion-inline-end:"/home/benavides/GIT/ionic/src/pages/home/home.html"*/
         }),
         __metadata("design:paramtypes", [typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* NavController */]) === "function" && _a || Object, typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_2__providers_usuarios_usuarios__["a" /* UsuariosProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__providers_usuarios_usuarios__["a" /* UsuariosProvider */]) === "function" && _b || Object])
     ], HomePage);
@@ -357,7 +357,7 @@ var MyApp = /** @class */ (function () {
         });
     }
     MyApp = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/home/benavides/ionic/app/demo/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/home/benavides/ionic/app/demo/src/app/app.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/home/benavides/GIT/ionic/src/app/app.html"*/'<ion-nav [root]="rootPage"></ion-nav>\n'/*ion-inline-end:"/home/benavides/GIT/ionic/src/app/app.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
     ], MyApp);
